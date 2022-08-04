@@ -1,11 +1,12 @@
 console.log("Returnează un boolean dacă un număr este divizibil cu 10");
 const DEVID = 10;
+const DIVISIBLE = 100;
 
 const isDivisible = (number, devid ) => {
-    return ((number % devid) !== 0) ? false : true;
+    return number % devid === 0;
 }
 
-const result = isDivisible(100, DEVID);
+const result = isDivisible(DIVISIBLE, DEVID);
 console.log(result);
 
 console.log("--------------------------------------------------------------");
