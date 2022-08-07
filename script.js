@@ -13,7 +13,7 @@ console.log("--------------------------------------------------------------");
 
 console.log("Scrieți o funcție numită tellFortune");
 
-const numberOfChildren = 2;
+const numberOfChildren = 3;
 const partnerName = "Oana";
 const location = "Sibiu";
 const job = "Software Developer";
